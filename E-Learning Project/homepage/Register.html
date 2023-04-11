@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="Register.css" />
+  </head>
+  <body>
+    <header></header>
+    <section>
+      <form action="" method="get">
+        <h1>Register</h1>
+        <fieldset>
+          <label for="first-name"
+            >First Name:
+            <input type="text" name="first-name" id="first-name" required />
+          </label>
+
+          <label for="last-name"
+            >Last Name:
+            <input type="text" name="last-name" id="last-name" />
+          </label>
+          <label for="email"
+            >Email:
+            <input type="email" name="email" id="email" required />
+          </label>
+          <label for="password"
+            >Create New Password:
+            <input type="password" name="password" id="password" required minlength="8" />
+          </label>
+
+          
+            <label for="gender"
+              >Gender:
+              <label for="male"
+                ><input
+                  type="radio"
+                  name="gender"
+                  value="male"
+                  class="inline"
+                  required
+                />
+                Male</label
+              >
+
+              <label for="female">
+                <input
+                  type="radio"
+                  name="gender"
+                  value="female"
+                  class="inline"
+                  required
+                />
+                Female</label
+              >
+            </label>
+          
+
+          <label for="age"
+            >Provide your age:
+            <input type="number" name="age" id="age" min="10" required />
+          </label>
+          <label for="profile-picture"
+            >Upload a profile picture:
+            <input id="profile-picture" type="file" name="file"
+          /></label>
+        </fieldset>
+
+        <fieldset>
+          <!-- <p>How did you hear about us?</p>
+          <select name="source" id="source">
+            <option value="">select(one)</option>
+            <option value="1">From your friend</option>
+            <option value="2">From our youtube channel</option>
+            <option value="3">From your school</option>
+          </select> -->
+          <label for="terms-and-conditions">
+            <input
+              id="terms-and-conditions"
+              type="checkbox"
+              required
+              name="terms-and-conditions"
+              class="inline"
+            />
+            I accept the
+            <a href="#"
+              >terms and conditions.</a
+            >
+          </label>
+        </fieldset>
+
+        <input type="submit" name="submit" />
+        <p id="account">Already have an account? <a href="/homepage/login.html">Login</a></p>
+      </form>
+    </section>
+  </body>
+</html>

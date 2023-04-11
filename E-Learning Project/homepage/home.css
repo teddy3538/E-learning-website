@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+/* header styling */
+header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: #f7f5f5;
+}
+
+header nav ul{
+display: flex;
+padding-top: 15px;
+}
+header nav ul li{
+    padding-right: 20px;
+    padding-bottom: 5px;
+    font-weight: 700;
+    font-size: 1.5em;
+    opacity: 0.7;
+}
+header nav ul li:hover{
+    opacity: 1;
+}
+/* main body styling */
+.container-1{
+    background-color: rgb(58, 52, 52);
+    color: #fff;
+    padding-top: 15px;
+    font-family: Tahoma;
+    height: 200px;
+    width: 100%;
+   border-bottom-left-radius: 100px;
+   border-bottom-right-radius: 100px;
+}
+.container-1 h1,p{
+    text-align: center;
+}
+.container-1 p{
+    padding-top: 15px;
+    font-size: 1.5em;
+}
+.container-1 h1{
+    font-size: 2rem;
+}
+.container-1 p a{
+    text-decoration: none;
+    color:blue;
+    font-size: 0.9em;
+}
+.container-1 p a:hover{
+    text-decoration: underline;
+}
+.html-wrapper{
+    display: flex;
+    width: 100%;
+}
+.html{
+    text-align: center;
+    background-color: rgb(235, 234, 183);
+    height: 320px;
+    border-bottom-right-radius: 100px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.html p a{
+    text-decoration: none;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.html p a:hover{
+    text-decoration: underline;
+}
+.html .html-link{
+    padding-top: 15px;
+}
+.css{
+    text-align: center;
+    background-color: rgb(216, 227, 240);
+    height: 320px;
+    margin-left: 10px;
+    border-bottom-left-radius: 100px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+  
+}
+.css p a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.css p a:hover{
+    text-decoration: underline;
+}
+.css .css-link{
+    padding-top: 15px;
+}
+.js-php-wrapper{
+    display: flex;
+    width: 100%;
+}
+.js-container{
+    text-align: center;
+    background-color: rgb(202, 253, 236);
+    margin-right: 10px;
+    border-top-right-radius: 100px;
+    padding: 10px;
+    height: 250px;
+}
+.js-container p a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.js-container p a:hover{
+    text-decoration: underline;
+}
+.js-container #js-link{
+    padding-top: 15px;
+}
+
+.php-container{
+    text-align: center;
+    height: 250px;
+    background-color: rgb(255, 251, 235);
+    padding: 10px;
+    border-top-left-radius: 100px;
+}
+.php-container p a{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.php-container p a:hover{
+    text-decoration: underline;
+}
+.php-container #php-link{
+    padding-top: 15px;
+}
+.parag-1{
+    width: 50%;
+    padding: 10px 20p;
+    
+}
+
+/* footer styling */
+footer{
+    background-color: #f7f5f5;
+    width: 100%;
+    border-top: 1px solid #dad4d4;
+}
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+}
+footer img{
+    border: 1px solid;
+    
+}
+footer .logo-wrapper{
+    padding-top: 15px;
+}
+footer ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+footer ul li{
+    padding-top: 8px;
+    list-style-type: none;
+    opacity: 0.7;
+}
+footer ul li:hover{
+    opacity: 1;
+}
+footer ul{
+    padding-top: 10px;
+}
+footer ul li:last-child{
+    padding-bottom: 10px;
+}
+.footer-links{
+    border-bottom: 1px solid #ddd;
+    padding-left: 10%;
+    padding-right: 5%;
+}
+.copyright{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instructor Registration Form</title>
+    <link rel="stylesheet" href="/homepage/teacher page/teach-signup.css" />
+  </head>
+  <body>
+    <div class="outer-wrapper">
+      <h1>Instructor Registration Form</h1>
+      <form action="">
+        <fieldset class="container-1">
+          <label for="first-name"
+            >First name:
+            <input type="text" name="first-name" />
+          </label>
+          <label for="last-name"
+            >Last name:
+            <input type="text" name="last-name" />
+          </label>
+          <label for="email"
+            >Email:
+            <input type="email" name="email" />
+          </label>
+          <label for="password"
+            >Create New Password:
+            <input type="password" name="password" />
+          </label>
+          <label for="confirm-password"
+            >Confirm Password:
+            <input type="password" name="confirm-password" />
+          </label>
+          <div class="gender-wrapper">
+            <label for="gender" id="gender">Gender:</label>
+            <input type="radio" name="gender" />
+            <label for="male" class="inline">Male</label>
+            <input type="radio" name="gender" />
+            <label for="female" class="inline">Female</label>
+          </div>
+        </fieldset>
+        <fieldset class="container-2">
+          <div>
+            <h3>What is your education level?</h3>
+            <select name="" id="">
+              <option value="">Select one</option>
+              <option value="1">Masters in software engineering</option>
+              <option value="2">Degree in software engineering</option>
+              <option value="3">Masters in computer science</option>
+              <option value="4">I participated in some projects</option>
+            </select>
+          </div>
+
+          <label for="CV"
+            >Upload your CV:
+            <input type="file" name="CV" />
+          </label>
+          <label for="profile-picture"
+            >Upload profile picture:
+            <input type="file" name="profile-picture" />
+          </label>
+        </fieldset>
+        <button type="submit">Sign Up</button>
+        <button type="reset">Reset</button>
+      </form>
+      <div class="paragraph">
+        <p>
+          Already have an account?
+          <a href="/homepage/teacher page/teacher-login.html">Login.</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

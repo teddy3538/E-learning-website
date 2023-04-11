@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <h1>Login</h1>
+    <form action="" method="get">
+      <fieldset>
+        <label for="first-name"
+          >First Name:
+          <input type="text" name="first-name" id="first-name" required />
+        </label>
+        <label for="last-name"
+          >Last Name:
+          <input type="text" name="last-name" id="last-name" required />
+        </label>
+        <label for="email"
+          >Email:
+          <input type="email" name="email" id="email" />
+        </label>
+        <label for="password"
+          >Password:
+          <input type="password" name="password" id="password" minlength="8" required/>
+        </label>
+        <button type="submit">Login</button>
+      </fieldset>
+      
+      <p>Need an account?<a href="/homepage/Register.html">Sign Up.</a></p>
+    </form>
+  </body>
+</html>

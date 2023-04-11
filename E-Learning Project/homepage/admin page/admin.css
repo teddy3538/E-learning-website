@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    min-height: 100vh;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+h3,h2{
+    color: dimgray;
+}
+.side-menu{
+    position: fixed;
+    width: 25vw;
+    background-color: rgb(252, 184, 162);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.side-menu .logo{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.side-menu li{
+    font-size: 24px;
+    padding: 10px 40px;
+    color:white;
+    display: flex;
+    align-items: center;
+}
+.side-menu li:hover{
+    background-color: white;
+    color: rgb(252, 184, 162);
+}
+.container{
+    position: absolute;
+    right: 0;
+    width: 75vw;
+    height: 100vh;
+}
